@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ## 2. Download dataset
 We conducted experiments using the dataset provided by [Deblur-NeRF](https://github.com/limacv/Deblur-NeRF). Download the dataset from [here](https://drive.google.com/drive/folders/1_TkpcJnw504ZOWmgVTD7vWqPdzbk9Wx_?usp=sharing). 
 
-This dataset comprises 10 synthesized scenes, simulating real camera motion blur and defocus blur. Additionally, the dataset includes captures from 20 real scenes, where camera motion blur is introduced by manually shaking the camera during exposure, and defocus blur is captured by selecting a large aperture.
+This dataset comprises 10 synthesized scenes, simulating real camera motion blur and defocus blur. Additionally, the dataset includes captures from 20 real scenes, where also divided into half with camera motion blur and half with defocus blur.
 
 ## 3. Train
 For example, to train `blurpool` scene, 
