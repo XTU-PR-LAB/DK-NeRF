@@ -39,7 +39,7 @@ python run_nerf.py --config ./configs/blurpool/tx_blurpool_dpnerf.txt --expname 
 ```
 The training and tensorboard results will be save in `<basedir>/<expname>` and `<tbdir>`.
 
-## 5. Evaluation
+## 4. Evaluation
 
 Evaluation is automatically executed every `--i_testset` iterations.
 Please refer the other logging options in `run_nerf.py` to adjust save and print the results.
