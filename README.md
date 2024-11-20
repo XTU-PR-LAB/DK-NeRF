@@ -28,10 +28,6 @@ pip install -r requirements.txt
 ## 2. Download dataset
 We use the dataset from [Deblur-NeRF](https://github.com/limacv/Deblur-NeRF) to train the DP-NERF. Download the dataset from [here](https://drive.google.com/drive/folders/1_TkpcJnw504ZOWmgVTD7vWqPdzbk9Wx_?usp=sharing). 
 
-There are total of 31 scenes used in the paper, 5 synthetic scene and 10 real-world scene for each blur type: camera-motion blur, defocus blur.
-
-Note that, quantitative evaluation of the `bush` scene in real-defocus dataset is excluded in the paper since there are no clean ground truth image to evaluate.
-
 ## 3. Train
 For example, to train `blurpool` scene, 
 ```
