@@ -16,7 +16,6 @@ from PIL import Image as PILImage
 # np.random.seed(0)
 DEBUG = False
 torch.autograd.set_detect_anomaly(True)
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 
 def compute_time(dt):
