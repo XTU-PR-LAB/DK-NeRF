@@ -26,7 +26,9 @@ pip install -r requirements.txt
 
 
 ## 2. Download dataset
-We conducted experiments using the dataset provided by [Deblur-NeRF](https://github.com/limacv/Deblur-NeRF). Download the dataset from [here](https://drive.google.com/drive/folders/1_TkpcJnw504ZOWmgVTD7vWqPdzbk9Wx_?usp=sharing). This dataset comprises 10 synthesized scenes, simulating real camera motion blur and defocus blur. Additionally, the dataset includes captures from 20 real scenes, where camera motion blur is introduced by manually shaking the camera during exposure, and defocus blur is captured by selecting a large aperture.
+We conducted experiments using the dataset provided by [Deblur-NeRF](https://github.com/limacv/Deblur-NeRF). Download the dataset from [here](https://drive.google.com/drive/folders/1_TkpcJnw504ZOWmgVTD7vWqPdzbk9Wx_?usp=sharing). 
+
+This dataset comprises 10 synthesized scenes, simulating real camera motion blur and defocus blur. Additionally, the dataset includes captures from 20 real scenes, where camera motion blur is introduced by manually shaking the camera during exposure, and defocus blur is captured by selecting a large aperture.
 
 ## 3. Train
 For example, to train `blurpool` scene, 
@@ -83,7 +85,7 @@ If you have not enough memory to train on your single GPU, set `N_rand` to a sma
 
 ## Multi-GPUs training
 
-To train the DP-NeRF with multiple gpus, please set `num_gpu=<num_gpu>`.
+To train the model with multiple gpus, please set `num_gpu=<num_gpu>`.
 
 ## Original NeRF training
 
